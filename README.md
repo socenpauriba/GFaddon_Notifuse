@@ -94,20 +94,27 @@ To add custom fields:
 ## Features
 
 ✅ **Automatic sync**: Contacts are automatically sent when the form is submitted
+
 ✅ **Flexible mapping**: Map any form field to Notifuse fields
+
 ✅ **List subscription**: Automatically subscribe contacts to multiple lists
+
 ✅ **Conditions**: Define conditions to control when information is sent
+
 ✅ **Delayed payment support**: Compatible with Gravity Forms payments
+
 ✅ **Error management**: Logs errors and adds notes to entries
+
 ✅ **Validation**: Validates URLs and required fields
+
 ✅ **Multi-language**: Available in English, Catalan and Spanish
 
 ## API Functionality
 
-The plugin uses the Notifuse endpoint:
+The plugin uses the Notifuse ```contacts.import``` endpoint:
 
 ```
-POST https://[instance].notifuse.com/api/contacts.import
+POST https://[$notifuse_url]/api/contacts.import
 ```
 
 With the following data format:
@@ -138,7 +145,7 @@ With the following data format:
 The plugin is available in:
 
 - 🇬🇧 **English** (default)
-- 🇪🇸 **Catalan** (`ca`)
+- <img src="https://i.redd.it/catalan-flag-emojis-v0-luy2i0a9jqz91.png?width=804&format=png&auto=webp&s=33562da953812f49a8e4c0caed375494748fa3dd" width="20" height="22" alt="Catalan" /> **Catalan** (`ca`)
 - 🇪🇸 **Spanish** (`es_ES`)
 
 ### Adding New Translations
