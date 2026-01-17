@@ -1,1 +1,92 @@
-/* placeholder for css */
+/**
+ * Notifuse Add-On Styles
+ * Estils per a la configuració del plugin de Notifuse
+ */
+
+/* Configuració general */
+.gform-settings-panel__content .notifuse-settings {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+/* Camps de configuració */
+.gform-settings-field input[type="text"].medium {
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Missatges d'ajuda */
+.gform-settings-description {
+    color: #666;
+    font-size: 13px;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+/* Taula de feeds */
+.gform-settings-panel__content .feeds-list {
+    margin-top: 20px;
+}
+
+/* Mapejat de camps */
+.gform-settings-field__field-map {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.gform-settings-field__field-map-row {
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 3px;
+}
+
+/* Botons */
+.gform-button--secondary {
+    margin-top: 10px;
+}
+
+/* Missatges d'error */
+.gform-settings-field__error-message {
+    color: #dc3232;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+/* Missatges d'èxit */
+.gform-settings-field__success-message {
+    color: #46b450;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+/* Tooltips */
+.gform-settings-field__tooltip {
+    color: #666;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+/* Notes a les entrades */
+.notifuse-note {
+    padding: 10px;
+    background: #e7f7e7;
+    border-left: 4px solid #46b450;
+    margin: 10px 0;
+}
+
+.notifuse-note.error {
+    background: #fef7f7;
+    border-left-color: #dc3232;
+}
+
+/* Responsive */
+@media screen and (max-width: 782px) {
+    .gform-settings-field input[type="text"].medium {
+        max-width: 100%;
+    }
+}

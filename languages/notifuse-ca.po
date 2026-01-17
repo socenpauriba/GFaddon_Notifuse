@@ -1,0 +1,197 @@
+# Translation of Gravity Forms Notifuse Add-On in Catalan
+# This file is distributed under the same license as the plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gravity Forms Notifuse Add-On 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-17 00:00+0000\n"
+"PO-Revision-Date: 2026-01-17 00:00+0000\n"
+"Last-Translator: Nuvol.cat\n"
+"Language-Team: Catalan\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Plugin init
+msgid "Subscribe contact to Notifuse only when payment is received."
+msgstr "Subscriure contacte a Notifuse només quan es rebi el pagament."
+
+# Feed processing errors
+msgid "Notifuse configuration incomplete. Please configure the instance URL, API token and workspace ID."
+msgstr "Configuració de Notifuse incompleta. Si us plau, configura la URL de la instància, token i workspace ID."
+
+msgid "Contact email not found."
+msgstr "No s'ha pogut trobar l'email del contacte."
+
+msgid "Error connecting to Notifuse: %s"
+msgstr "Error en connectar amb Notifuse: %s"
+
+msgid "Notifuse returned an error (Code %d): %s"
+msgstr "Notifuse ha retornat un error (Codi %d): %s"
+
+msgid "Contact successfully synced with Notifuse."
+msgstr "Contacte sincronitzat correctament amb Notifuse."
+
+# Plugin settings
+msgid "Notifuse Configuration"
+msgstr "Configuració de Notifuse"
+
+msgid "Configure the connection to your Notifuse instance."
+msgstr "Configura la connexió amb la teva instància de Notifuse."
+
+msgid "Enter your Notifuse instance URL (ex: https://demo.notifuse.com)"
+msgstr "Introdueix la URL de la teva instància de Notifuse (ex: https://demo.notifuse.com)"
+
+msgid "Notifuse Instance URL"
+msgstr "URL de la instància Notifuse"
+
+msgid "Enter your Notifuse API token. You can get it from your Notifuse dashboard."
+msgstr "Introdueix el token de l'API de Notifuse. El pots obtenir des del teu panell de Notifuse."
+
+msgid "API Token"
+msgstr "Token de l'API"
+
+msgid "Enter your Notifuse workspace ID (ex: ws_1234567890)"
+msgstr "Introdueix l'ID del workspace de Notifuse (ex: ws_1234567890)"
+
+msgid "Workspace ID"
+msgstr "Workspace ID"
+
+msgid "Please enter a valid URL."
+msgstr "Si us plau, introdueix una URL vàlida."
+
+# Feed settings
+msgid "Notifuse Feed Configuration"
+msgstr "Configuració del Feed de Notifuse"
+
+msgid "Feed Name"
+msgstr "Nom del feed"
+
+msgid "Enter a name to identify this feed."
+msgstr "Introdueix un nom per identificar aquest feed."
+
+msgid "Subscription Lists"
+msgstr "Llistes de subscripció"
+
+msgid "Enter list names separated by commas (ex: newsletter, product_updates)"
+msgstr "Introdueix els noms de les llistes separats per comes (ex: newsletter, product_updates)"
+
+msgid "Field Mapping"
+msgstr "Mapejat de camps"
+
+msgid "For each Notifuse field, select the form field you want to send. You can leave fields blank if you don't need them."
+msgstr "Per cada camp de Notifuse, selecciona el camp del formulari que vols enviar. Pots deixar camps en blanc si no els necessites."
+
+# Contact fields
+msgid "Email"
+msgstr "Email"
+
+msgid "Contact email address (required)"
+msgstr "Adreça d'email del contacte (obligatori)"
+
+msgid "External ID"
+msgstr "ID extern"
+
+msgid "Unique identifier from your system"
+msgstr "Identificador únic del teu sistema"
+
+msgid "First Name"
+msgstr "Nom"
+
+msgid "Contact first name"
+msgstr "Nom del contacte"
+
+msgid "Last Name"
+msgstr "Cognoms"
+
+msgid "Contact last name"
+msgstr "Cognoms del contacte"
+
+msgid "Phone"
+msgstr "Telèfon"
+
+msgid "Phone number"
+msgstr "Número de telèfon"
+
+msgid "Timezone"
+msgstr "Zona horària"
+
+msgid "Contact ISO timezone (ex: Europe/Madrid)"
+msgstr "Zona horària ISO del contacte (ex: Europe/Madrid)"
+
+msgid "Language"
+msgstr "Idioma"
+
+msgid "Contact preferred language"
+msgstr "Idioma preferit del contacte"
+
+msgid "Job Title"
+msgstr "Càrrec professional"
+
+msgid "Professional title or position"
+msgstr "Títol o càrrec professional"
+
+msgid "Address Line 1"
+msgstr "Adreça 1"
+
+msgid "Primary address"
+msgstr "Adreça principal"
+
+msgid "Address Line 2"
+msgstr "Adreça 2"
+
+msgid "Secondary address (apartment, suite, etc.)"
+msgstr "Adreça secundària (apartament, pis, etc.)"
+
+msgid "Country"
+msgstr "País"
+
+msgid "Country in ISO format (ex: ES, US, FR)"
+msgstr "País en format ISO (ex: ES, US, FR)"
+
+msgid "State/Province"
+msgstr "Estat/Província"
+
+msgid "State or province"
+msgstr "Estat o província"
+
+msgid "Postcode"
+msgstr "Codi postal"
+
+msgid "Postal or ZIP code"
+msgstr "Codi postal o ZIP"
+
+# Custom fields
+msgid "Custom Fields"
+msgstr "Camps personalitzats"
+
+msgid "Add Notifuse custom fields. Enter the exact field name (ex: custom_string_1, custom_number_2, custom_datetime_1, custom_json_3)"
+msgstr "Afegeix camps personalitzats de Notifuse. Escriu el nom exacte del camp (ex: custom_string_1, custom_number_2, custom_datetime_1, custom_json_3)"
+
+msgid "Custom Field Name"
+msgstr "Nom del camp personalitzat"
+
+msgid "Ex: custom_string_1"
+msgstr "Ex: custom_string_1"
+
+msgid "Form Field"
+msgstr "Camp del formulari"
+
+# Condition
+msgid "Condition"
+msgstr "Condició"
+
+msgid "Enable Condition"
+msgstr "Activar condició"
+
+msgid "Process this feed if"
+msgstr "Processar aquest feed si"
+
+# Feed list
+msgid "Name"
+msgstr "Nom"
+
+msgid "Lists"
+msgstr "Llistes"

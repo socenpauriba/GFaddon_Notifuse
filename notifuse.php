@@ -1,11 +1,11 @@
 <?php
 /*
-Plugin Name: Gravity Forms Simple Feed Add-On
-Plugin URI: http://www.gravityforms.com
-Description: A simple add-on to demonstrate the use of the Add-On Framework
-Version: 2.0
-Author: Rocketgenius
-Author URI: http://www.rocketgenius.com
+Plugin Name: Gravity Forms Notifuse Add-On
+Plugin URI: https://github.com/socenpauriba/GFaddon_Notifuse
+Description: A gravity form add-on to sync form summisions to Notinfuse
+Version: 1.0.0
+Author: Nuvol.cat
+Author URI: https://nuvol.cat
 
 ------------------------------------------------------------------------
 Copyright 2012-2016 Rocketgenius Inc.
@@ -25,11 +25,11 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
 */
 
-define( 'GF_SIMPLE_FEED_ADDON_VERSION', '2.0' );
+define( 'GF_NOTIFUSE_ADDON_VERSION', '1.0.0' );
 
-add_action( 'gform_loaded', array( 'GF_Simple_Feed_AddOn_Bootstrap', 'load' ), 5 );
+add_action( 'gform_loaded', array( 'GF_Notifuse_AddOn_Bootstrap', 'load' ), 5 );
 
-class GF_Simple_Feed_AddOn_Bootstrap {
+class GF_Notifuse_AddOn_Bootstrap {
 
 	public static function load() {
 
@@ -37,13 +37,13 @@ class GF_Simple_Feed_AddOn_Bootstrap {
 			return;
 		}
 
-		require_once( 'class-gfsimplefeedaddon.php' );
+		require_once( 'class-gfnotifuseaddon.php' );
 
-		GFAddOn::register( 'GFSimpleFeedAddOn' );
+		GFAddOn::register( 'GFNotifuseAddOn' );
 	}
 
 }
 
-function gf_simple_feed_addon() {
-	return GFSimpleFeedAddOn::get_instance();
+function gf_notifuse_addon() {
+	return GFNotifuseAddOn::get_instance();
 }
